@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+@font-face {
+    font-family:'Norse-Bold';
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+body {    
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section,.left-section {
+    height:100vh;
+    display: flex;
+}
+
+/* LEFT SECTION */
+
+.left-section {
+   background:url(../images/photo-1585202900225-6d3ac20a6962.avif); 
+   font-family:'Norse-Bold','Roboto',sans-serif;  
+   background-size: cover;
+   width:20vw;
+   color: white;
+   flex-direction: column;
+   justify-content: space-between; 
+   font-size: 2rem;
+
+}
+
+.left-section .logo-background {
+    background-color:rgba(0,0,0,0.5); 
+    padding:20px 0;   
+    margin-top:140px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    width:80px; 
+}
+
+.left-section p {
+    font-family: var(--secondary-font);
+    font-family:'Roboto',sans-serif;   
+    font-size: 0.8rem;    
+    align-self: center;   
+}
+
+.left-section  a{
+    color: white;
+}
+
+.right-section {
+    font-family:'Roboto',sans-serif;
+    width:70vw;
+}
+
